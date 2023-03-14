@@ -40,7 +40,7 @@ span {
   border: 1px solid #fff;
 
   position: relative;
-  left: 17%;
+  left: 9%;
 }
 
 .toggle--icon {
@@ -73,11 +73,11 @@ li {
   align-items: center;
 } */
 
-.row-one {
-  width: 40%;
-}
 .row {
   width: 60%;
+}
+.row-one {
+  width: 40%;
 }
 
 .row + .row {
@@ -170,12 +170,7 @@ li {
     font-size: 0.775rem;
     padding: 0.5rem 1.1rem;
   }
-  /* .toggle--icon {
-    display: block;
-    position: absolute;
-    top: 2%;
-    right: 10%;
-  } */
+
   #header-text {
     position: absolute;
     top: 2%;
@@ -235,5 +230,81 @@ li {
   .profile {
     width: 50px;
     margin-top: 5px;
+  }
+}
+
+/* FROM 375PX TO 599PX :)  */
+@media (min-width: 350px) and (max-width: 599px) {
+  img {
+    max-width: 100%;
+  }
+
+  /* HEADER SECTION */
+
+  #header-text {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+  }
+
+  .toggle--icon {
+    display: block;
+    position: absolute;
+    top: 2%;
+    right: 10%;
+  }
+
+  li > a {
+    display: none;
+  }
+
+  /* flex main section */
+  .flex-items {
+    display: block;
+  }
+  .main {
+    display: block;
+    margin: 2rem auto;
+    max-width: 80%;
+    min-height: 100vh;
+  }
+
+  /* flex items */
+  .row-one {
+    width: 100%;
+  }
+  .row--pic {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .row + .row {
+    margin-left: 0;
+  }
+
+  .row-one h1 {
+    font-size: 1.5rem;
+  }
+  .row-one p {
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: 1em 0;
+  }
+  .row-one a {
+    font-size: 0.8rem;
+  }
+
+  /* THE Z-INDEX COPYRIGHT BOX */
+  .floated--designer-details > h4 {
+    font-size: 0.8em;
+  }
+
+  .floated--designer-details > p {
+    margin-top: 0.8em;
+    justify-content: start;
+    font-size: 0.65rem;
+  }
+  .profile {
+    width: 50px;
   }
 }
