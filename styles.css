@@ -240,6 +240,15 @@ li {
     width: 50px;
     margin-top: 5px;
   }
+
+  /* MY COPYRIGHT */
+  .issa {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 0.6em;
+  }
 }
 
 /* FROM 375PX TO 599PX :)  */
@@ -315,5 +324,14 @@ li {
   }
   .profile {
     width: 50px;
+  }
+
+  /* MY COPYRIGHT :) */
+  .issa {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 0.6em;
   }
 }
