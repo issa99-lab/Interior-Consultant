@@ -21,6 +21,15 @@ img {
 
 .landing--page {
   min-height: 100vh;
+  position: relative;
+}
+
+.issa {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 0.6em;
 }
 /*1. HEADER CONTENT */
 .flex-items {
