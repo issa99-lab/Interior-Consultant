@@ -282,7 +282,7 @@ li {
   }
   .main {
     display: block;
-    margin: 3rem auto;
+    margin: 5rem auto;
     max-width: 80%;
     min-height: 100vh;
   }
@@ -331,7 +331,7 @@ li {
     margin: 0 auto;
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 35%;
     font-size: 0.6em;
   }
 }
