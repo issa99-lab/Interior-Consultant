@@ -40,7 +40,7 @@ span {
   border: 1px solid #fff;
 
   position: relative;
-  left: 8%;
+  left: 17%;
 }
 
 .toggle--icon {
@@ -110,16 +110,17 @@ li {
 
 /* Centered div within main div  */
 .copyright--box {
+  display: flex;
+  width: 60%;
+
+  position: absolute;
+  z-index: auto;
   background-color: #181719;
-  width: 55%;
-  padding: 0.5em 1.5em 3em 0;
+
+  padding: 1em 1.5em 3em 0;
 
   margin-left: 35%;
   margin-top: -10%;
-
-  display: flex;
-  position: absolute;
-  z-index: auto;
 }
 
 .floated--designer-details {
@@ -215,5 +216,24 @@ li {
   }
   .row-one a {
     font-size: 0.9rem;
+  }
+
+  /* THE Z-INDEX COPYRIGHT BOX */
+  .copyright--box {
+    padding: 0.5em 1em 3.5em 0;
+  }
+
+  .floated--designer-details > h4 {
+    font-size: 1em;
+  }
+
+  .floated--designer-details > p {
+    margin-top: 1em;
+    justify-content: start;
+    font-size: 0.65rem;
+  }
+  .profile {
+    width: 50px;
+    margin-top: 5px;
   }
 }
